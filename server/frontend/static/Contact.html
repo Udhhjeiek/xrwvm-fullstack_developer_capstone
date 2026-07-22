@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Best Cars</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/" style="font-size: 1.5rem; font-weight: 500;">Dealerships</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header bg-dark text-white text-center py-4">
+                        <h2 class="font-weight-light my-2">Get in Touch</h2>
+                        <p class="mb-0">We would love to hear from you!</p>
+                    </div>
+                    <div class="card-body p-5">
+                        <div class="row text-center mb-4">
+                            <div class="col-md-4 mb-3">
+                                <h5 class="text-uppercase text-muted mb-1">Email</h5>
+                                <p class="lead">support@quantumoverride.cars</p>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <h5 class="text-uppercase text-muted mb-1">Phone</h5>
+                                <p class="lead">+91 1800-555-CARS</p>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <h5 class="text-uppercase text-muted mb-1">Address</h5>
+                                <p class="lead">Quantum Override Auto Hub<br>Near IIT Dharwad Campus<br>Karnataka, India</p>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <h4 class="text-center mb-4">Send us a Message</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-info btn-block text-white" style="background-color: darkturquoise; border: none;">Submit Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
